@@ -1,0 +1,8 @@
+pip install pyinstaller
+pyinstaller --onefile --windowed --name "生命线工程设备测试数据分析软件" --hidden-import=pandas --hidden-import=numpy --hidden-import=matplotlib --hidden-import=seaborn --hidden-import=sklearn --hidden-import=statsmodels --hidden-import=scipy --hidden-import=PyQt5 main.py
+
+或
+python install -r requirements
+python test_data_generator.py
+pip install pyinstaller
+pyinstaller lifeline_analysis.spec
