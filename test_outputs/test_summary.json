@@ -1,0 +1,41 @@
+{
+  "rows": 1000,
+  "columns": [
+    "timestamp",
+    "temperature",
+    "displacement",
+    "strain",
+    "humidity"
+  ],
+  "time_start": "2023-01-01 00:00:00",
+  "time_end": "2023-02-11 15:00:00",
+  "missing_values": {
+    "timestamp": 0,
+    "temperature": 0,
+    "displacement": 0,
+    "strain": 0,
+    "humidity": 0
+  },
+  "temperature_mean": 23.430532544584757,
+  "displacement_mean": 11.770684390916955,
+  "strain_mean": 5.873683673985541,
+  "humidity_mean": 60.698181539436106,
+  "corr_temperature_displacement": 0.8366736567380791,
+  "regression_slope": 0.3901255983729264,
+  "regression_intercept": 2.629833861764501,
+  "regression_r2": 0.7000228078794695,
+  "sarima_aic": 4575.287447588227,
+  "forecast_first_3": [
+    0.474748,
+    0.002273,
+    -0.389991
+  ],
+  "gmm_weights_temperature": [
+    0.49481743305692594,
+    0.5051825669430741
+  ],
+  "gmm_means_temperature": [
+    24.76595241271401,
+    22.122512287275676
+  ]
+}
